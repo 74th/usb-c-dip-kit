@@ -393,7 +393,7 @@
     (uuid f57d4f7e-ce77-4da4-a949-56d311b99eb6)
     (property "Reference" "CN1" (id 0) (at 41.275 22.86 0))
     (property "Value" "USB2.0_C_12pin" (id 1) (at 41.275 25.4 0))
-    (property "Footprint" "$74th:USB-C-12-Pin-MidMount-ali" (id 2) (at 40.64 45.72 0)
+    (property "Footprint" "$usb-type-c-kit:USB-C-12-Pin-MidMount-ali" (id 2) (at 40.64 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 41.91 64.77 0)
@@ -419,7 +419,7 @@
 
   (symbol_instances
     (path "/f57d4f7e-ce77-4da4-a949-56d311b99eb6"
-      (reference "CN1") (unit 1) (value "USB2.0_C_12pin") (footprint "$74th:USB-C-12-Pin-MidMount-ali")
+      (reference "CN1") (unit 1) (value "USB2.0_C_12pin") (footprint "$usb-type-c-kit:USB-C-12-Pin-MidMount-ali")
     )
     (path "/bb4e2dd6-532f-4512-af3d-f00e05846ae6"
       (reference "CN2") (unit 1) (value "USB_C_DIP_Socket") (footprint "$usb-type-c-kit:USB2.0-TYPE-C")
